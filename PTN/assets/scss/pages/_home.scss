@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background-color:$navbar-color ;
+    .container{
+        .navbar-brand{
+            font-size: 30px;
+            font-weight: 500;
+        }
+        .navbar{
+            font-size: 20px;
+            a{color: $font-color;}
+        }
+        
+    }
+}
+.pagedone{
+    width: 100%;
+    height: 900px;
+    background-color:$main-color ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        color:$font-color ;
+       .texts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+       }
+        h1{
+            font-size: 130px;
+        }
+        h3{
+            font-size: 60px;
+        }
+        p{
+            background-color: rgb(4, 62, 115);
+            font-size: 35px;
+        }
+        button{
+            color:$font-color ;
+            background-color: red;
+            width: 500px;
+            height: 80px;
+            font-size: 30px;
+        }
+    }
+}
+.texts button:hover {
+    background-color: rgb(198, 77, 7);
+  }
+.services{
+    width: 100%;
+    background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6RjkYcDsIRRSUWo3nZ7IcsIuEs_ThGPLT8EeMFe6YwaP6Tjwg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        display: flex;
+        flex-direction: column;
+     align-items: center;
+    justify-content: center;
+    gap: 50px;
+    .ourservices{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    h2{
+        font-size: 50px;
+        color: $main-color;
+    }
+    .servicestext{
+        h4{
+            font-size: 40px;
+            font-weight: 400;
+        }
+        p{font-size: 20px;}
+    }
+    }   
+     .menus{
+        display: flex;
+        justify-content: center;
+        .suremenu{
+            height: 500px;
+            background-color: $main-color;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color:$font-color;
+            gap: 30px;
+            margin-top: 20px;
+            h5{
+                font-size: 35px;
+            }
+            p{
+                font-size: 25px;
+            }
+
+        }
+     }
+     .secondtext{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        h4{
+            font-size: 45px;
+        }
+     }
+    }
+}
+.wallstreet{
+    width: 100%;
+    height: 300px;
+    background-color:$main-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.secondcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+}
+.walltext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    h1{
+        color: $font-color;
+        font-size: 70px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 40px;
+        color: $font-color;
+    }
+
+}
+.ourplans{
+    width: 100%;
+    background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6RjkYcDsIRRSUWo3nZ7IcsIuEs_ThGPLT8EeMFe6YwaP6Tjwg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        .plans{
+            display: flex;
+            flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        h2{
+            font-size: 50px;
+            color: $main-color;
+        }
+        .plantext{
+            h4{font-size: 40px;}
+            p{font-size: 20px;} 
+        }
+}}
+.planscards{
+    .consist{
+        width: 400px;
+        background-color: rgb(206, 203, 203);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        p{
+            font-size: 25px;
+        }
+        .btnfirst{
+            background-color: red;
+            width: 400px;
+            font-size: 25px;
+            color:$font-color ;
+            border: none;
+        }
+        .btnsecond{
+            background-color: rgb(0, 83, 142);
+            width: 400px;
+            font-size: 25px;
+            color:$font-color ;
+            border: none;
+        }
+        .btnthird{
+            background-color: rgb(16, 177, 16);
+            width: 400px;
+            font-size: 25px;
+            color:$font-color ;
+            border: none;
+        }
+        .pay{
+            width: 400px;
+            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:$font-color ;
+            font-size: 50px;
+            font-weight: 600;
+        }
+        .basicplan{
+            width: 400px;
+            background-color: black;
+            color:$font-color ;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+}  
+.numbers{
+    width: 100%;
+    height: 300px;
+    background-color:$main-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.walltext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    h1{
+        color: $font-color;
+        font-size: 70px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 40px;
+        color: $font-color;
+    }
+
+}
+.contacts{
+    width: 100%;
+    background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6RjkYcDsIRRSUWo3nZ7IcsIuEs_ThGPLT8EeMFe6YwaP6Tjwg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    .container{
+        .contactus{
+            h2{
+                font-size: 50px;
+                color: $main-color;
+            }
+            .contactext{
+                h4{
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+.form-row{
+    display: flex;
+    gap: 20px;
+}
+.form-group{
+    width: 400px;
+}
+.sixcontainer{
+    display: flex;
+    gap: 30px;
+}
